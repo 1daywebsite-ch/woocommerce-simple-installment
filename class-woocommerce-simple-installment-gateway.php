@@ -7,6 +7,7 @@ class WC_Simple_Installment_Gateway extends WC_Payment_Gateway {
 	public function __construct(){
 		$this->id = 'simple_installment';
 		$this->method_title = __('Bequeme Ratenzahlung in Monatsraten','woocommerce-simple-installment-gateway');
+		$this->method_description = __( 'Have your customers pay in installments.', 'woocommerce-simple-installment-gateway' );
 		$this->title = $this->get_option('title');
 		$this->has_fields = true;
 		$this->init_form_fields();
