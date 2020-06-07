@@ -180,7 +180,7 @@ class WC_Simple_Installment_Gateway extends WC_Payment_Gateway {
 	public function thankyou_page( $order_id ) {
 		if ( $this->description ) {
 			$order = wc_get_order( $order_id );
-			echo '<p><strong>'.__('Installment Rates').':</strong> <br/>' . get_post_meta( $order->id, 'installment_description', true ) . '</p>';
+			echo '<p><strong>'.__('Installment Rates', 'woocommerce-simple-installment-gateway').':</strong> <br/>' . get_post_meta( $order->id, 'installment_description', true ) . '</p>';
 		}
 	}
 	/**
