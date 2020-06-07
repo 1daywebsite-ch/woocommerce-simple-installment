@@ -14,7 +14,7 @@ The checkout shows the installment payment gateway and calculates the monthly ra
 
 ### Thank you page & customer email ###
 
-Adds the installment plan with number of installments and monthly amount on the thank you page after the order details.
+Adds the installment plan with the number of installments and the monthly amount on the thank you page after the order details.
 
 ![simple-installation-screenshot-2](simple-installation-screenshot-2.jpg)
 
@@ -33,8 +33,8 @@ Adds the installment plan with number of installments and monthly amount to the 
 The screenshot below shows all available options:
 
 - You can set a general customer message before the installment plan info, which is the number of monthly rates and the monthly rate amount.
-- You can set a minimum cart total as a threshold for this payment gateway to shop on the checkout.
-- You can activiate for guests. By default only customers who are logged in and who have one completeted order may see this payment gateway.
+- You can set a minimum cart total as a threshold for this payment gateway to show up on the checkout.
+- You can activiate this payment gateway for guests. By default only customers who are logged in and who have one completeted order may see this payment gateway.
 - You can set the number of monthly installments.
 - You can set an extra fee for the handling of installments.
 - By default the order status is in waiting.
