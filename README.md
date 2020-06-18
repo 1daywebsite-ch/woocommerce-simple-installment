@@ -39,9 +39,9 @@ The screenshot below shows all available options:
 - You can set an extra fee for the handling of installments.
 - By default the order status is in waiting.
 - The admin notice by default is hidden.
-
+<p align="center">
 ![simple-installation-screenshot-5](simple-installation-screenshot-5.jpg)
-
+</p>
 ## Installation ##
 Download ZIP file and unpack the plugin directory.
 
